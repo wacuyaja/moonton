@@ -1,0 +1,12 @@
+
+
+
+---------- ERROR HANDLING -----------
+> Saat melakukan instalasi laravel breeze menggunakan link ini https://laravel.com/docs/9.x/starter-kits#laravel-breeze-installation dan mengikuti langkah link berikut https://laravel.com/docs/9.x/starter-kits#breeze-and-blade, lalu memilih react sebagai base nya akan muncul error dimana npm run dev gagal dijalankan. cara penyelesaiannya :
+    - ubah script yang ada di package.json menjadi 
+            "scripts": {
+            "dev": "vite",
+            "build": "vite build"
+        }
+    - lalu jalankan perintah npm install laravel-vite-plugin --save-dev
+    - lalu jalankan lagi npm run dev
